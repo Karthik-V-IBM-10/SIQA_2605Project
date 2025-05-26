@@ -36,6 +36,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: kvv
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
 services:
 - serviceName: project.siqa_2605.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
