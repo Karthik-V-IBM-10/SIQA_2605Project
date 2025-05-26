@@ -14,6 +14,12 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqa_2605.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQA_2605Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_2605.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_2605Project
@@ -24,6 +30,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2059
+- serviceName: project.siqa_2605.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_2605Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_2605.integrations:Sum
   packages:
   - name: SIQA_2605Project
